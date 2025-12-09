@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio • Your Name</title>
+    <meta name="description" content="Portfolio of Your Name — Developer, Designer, and Builder." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span class="brand-text">Your Name</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+            <span class="sr-only">Toggle navigation</span>
+            ☰
+          </button>
+          <ul id="primary-menu" class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section id="home" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello, I’m</p>
+            <h1 class="headline">Your Name</h1>
+            <p class="subhead">Front‑End Developer • UI Engineer • Problem Solver</p>
+            <p class="lede">
+              I build fast, accessible, and delightful web experiences. I focus on
+              clean architecture, design systems, and product outcomes.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#contact">Contact Me</a>
+              <a class="btn btn-ghost" href="assets/resume.pdf" download>Download Résumé</a>
+            </div>
+            <ul class="socials" aria-label="Social links">
+              <li><a href="#" aria-label="GitHub">GitHub</a></li>
+              <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+              <li><a href="#" aria-label="Twitter">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="hero-media" aria-hidden="true">
+            <div class="avatar"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container cols-2">
+          <div>
+            <h2>About</h2>
+            <p>
+              I am a developer who enjoys turning complex problems into simple,
+              beautiful, and intuitive solutions. When I’m not coding, I enjoy
+              learning new technologies, sketching interface ideas, and exploring
+              the outdoors.
+            </p>
+            <p>
+              My work blends engineering rigor with design sensibility. I value
+              accessibility, performance, and maintainability.
+            </p>
+            <ul class="key-points">
+              <li>5+ years building responsive web apps</li>
+              <li>Strong with React, TypeScript, Node, and CSS</li>
+              <li>Love systems: components, theming, docs</li>
+            </ul>
+          </div>
+          <div class="about-card" aria-hidden="true">
+            <div class="about-media"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section alt">
+        <div class="container">
+          <h2>Skills</h2>
+          <ul class="chip-list">
+            <li class="chip">HTML5</li>
+            <li class="chip">CSS3</li>
+            <li class="chip">JavaScript</li>
+            <li class="chip">TypeScript</li>
+            <li class="chip">React</li>
+            <li class="chip">Node.js</li>
+            <li class="chip">Express</li>
+            <li class="chip">REST APIs</li>
+            <li class="chip">GraphQL</li>
+            <li class="chip">Next.js</li>
+            <li class="chip">Tailwind</li>
+            <li class="chip">Sass</li>
+            <li class="chip">Vite</li>
+            <li class="chip">Webpack</li>
+            <li class="chip">Jest</li>
+            <li class="chip">Testing Library</li>
+            <li class="chip">Cypress</li>
+            <li class="chip">Git</li>
+            <li class="chip">Figma</li>
+            <li class="chip">Accessibility</li>
+            <li class="chip">Performance</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <article class="card">
+              <div class="card-thumb" aria-hidden="true"></div>
+              <div class="card-body">
+                <h3 class="card-title">Project One</h3>
+                <p class="card-text">
+                  A brief description of the project, the problem it solves, and
+                  the impact it created.
+                </p>
+                <ul class="tag-list">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>API</li>
+                </ul>
+                <div class="card-actions">
+                  <a class="btn btn-sm" href="#">Live</a>
+                  <a class="btn btn-sm btn-ghost" href="#">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-thumb" aria-hidden="true"></div>
+              <div class="card-body">
+                <h3 class="card-title">Project Two</h3>
+                <p class="card-text">
+                  An interface exploration with focus on accessibility and motion
+                  design.
+                </p>
+                <ul class="tag-list">
+                  <li>Next.js</li>
+                  <li>Framer Motion</li>
+                  <li>WCAG</li>
+                </ul>
+                <div class="card-actions">
+                  <a class="btn btn-sm" href="#">Live</a>
+                  <a class="btn btn-sm btn-ghost" href="#">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-thumb" aria-hidden="true"></div>
+              <div class="card-body">
+                <h3 class="card-title">Project Three</h3>
+                <p class="card-text">
+                  A small utility library that simplifies data fetching and state
+                  management.
+                </p>
+                <ul class="tag-list">
+                  <li>Node</li>
+                  <li>npm</li>
+                  <li>Testing</li>
+                </ul>
+                <div class="card-actions">
+                  <a class="btn btn-sm" href="#">Docs</a>
+                  <a class="btn btn-sm btn-ghost" href="#">Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section alt">
+        <div class="container cols-2">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              Want to collaborate, discuss an opportunity, or just say hello?
+              Send a message and I’ll get back to you soon.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:you@example.com">you@example.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Location</span>
+                <span>City, Country</span>
+              </li>
+            </ul>
+          </div>
+          <form class="contact-form" action="mailto:you@example.com" method="post" enctype="text/plain">
+            <div class="form-grid">
+              <label class="field">
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label class="field">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+              <label class="field field-full">
+                <span>Message</span>
+                <textarea name="message" rows="6" placeholder="How can I help?" required></textarea>
+              </label>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+        <a class="top-link" href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script>
+      // Enhance: small progressive enhancement for the nav toggle and year
+      (function () {
+        const toggle = document.querySelector('.nav-toggle');
+        const menu = document.getElementById('primary-menu');
+        if (toggle && menu) {
+          toggle.addEventListener('click', () => {
+            const expanded = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!expanded));
+            menu.classList.toggle('open');
+          });
+        }
+        const yearEl = document.getElementById('year');
+        if (yearEl) yearEl.textContent = new Date().getFullYear();
+      })();
+    </script>
+  </body>
+  </html>
+
+
